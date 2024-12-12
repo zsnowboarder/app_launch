@@ -7,7 +7,7 @@ st.write("""The advancement of technology was intended to reduce officers' workl
             The main purpose of these concepts is to promote awareness and to help officers manage the significant increase in adminstrative tasks in the past decade.""")
 
 st.markdown("<p><h3><span style='color: blue;'>Offence Classifier</h3></span></p>", unsafe_allow_html=True)
-st.write("This is a basic machine learning model using Logistic Regression to classify offences. The mode was train on less than 100 examples.")
+st.write("This is a basic machine learning model using Logistic Regression with TF-IDF vectorizer to classify offences. The model was train on only 40 examples. The larger the training dataset, the higher the accuracy.")
 st.markdown("[<h3>Try it</h3>](https://my-qc-app-7ij5uuv4vgp3nhyzrhttdm.streamlit.app/)", unsafe_allow_html=True)
 st.write("")
 
