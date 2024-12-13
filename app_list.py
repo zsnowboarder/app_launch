@@ -24,4 +24,10 @@ st.write("""This proof of concept uses the most advanced AI model to generate an
 st.markdown("[<h3>Try it</h3>](https://eim-api.streamlit.app/)", unsafe_allow_html=True)
 st.write("")
 
+st.markdown("<p><h3><span style='color: blue;'>Name Entity Recogition</h3></span></p>", unsafe_allow_html=True)
+st.write("""This demo shows the posiblity to using a pre-trained NER AI model to identify entities such as name, location, and mamy others within a text page. With this
+            in mind, the possibilities are up to what you want to achive!""")
+st.markdown("[<h3>Try it</h3>](https://ner-police.streamlit.app/)", unsafe_allow_html=True)
+st.write("")
+
          
