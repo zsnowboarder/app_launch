@@ -29,7 +29,7 @@ st.write("""This proof of concept uses the most advanced AI model to generate an
             the Transcription Queue for further processing. This model uses the free version of Gemini and all data is sent to the server for processing; therefore confidential information is not recommended.""")
 st.markdown("[<h3>Try it</h3>](https://eim-api.streamlit.app/)", unsafe_allow_html=True)
 st.write("")
-st.markdown("**Although these demos show that these models work independently, it is possible to combine them for achieving certain goal. For example, NER can be used to remove confidential information prior to sending the text to the AI model for further processing.")
+st.markdown("**Although these demos show that these models work independently, it is possible to combine them for achieving certain goal. For example, NER can be used to remove confidential information prior to sending the text to the AI model for further processing.**")
 
 
 
