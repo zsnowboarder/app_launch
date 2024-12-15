@@ -23,14 +23,24 @@ st.write("""This demo shows the posiblity to using a pre-trained NER AI model to
 st.markdown("[<h3>Try it</h3>](https://ner-police.streamlit.app/)", unsafe_allow_html=True)
 st.write("")
 
+st.markdown("<p><h3><span style='color: blue;'>Supervised and Unsupervised ML</h3></span></p>", unsafe_allow_html=True)
+st.write("""This demostrates using a combinating of supervised and unsupervised machine learning to solve problems. In this case, identifying unusual or a change in behaviour.
+This model works locally and does not require connection to the internet.""")
+st.markdown("[<h3>Try it</h3>](https://threat-analysis.streamlit.app/)", unsafe_allow_html=True)
+st.write("")
+
 st.markdown("<p><h3><span style='color: blue;'>eIM</h3></span></p>", unsafe_allow_html=True)
 st.write("""This proof of concept uses the most advanced AI model to generate an eIM compliant RTCC or any report with
             all entities and text pages in an XML file. The file can be imported for further processing or sent directly to
             the Transcription Queue for further processing. This model uses the free version of Gemini and all data is sent to the server for processing; therefore confidential information is not recommended.""")
 st.markdown("[<h3>Try it</h3>](https://eim-api.streamlit.app/)", unsafe_allow_html=True)
 st.write("")
-st.markdown("**Although these demos show that these models work independently, it is possible to combine them for achieving certain goal. For example, NER can be used to remove confidential information prior to sending the text to the AI model for further processing.**")
 
-
+st.title("Conclusion")
+st.markdown("""**These concepts have demostrated the application of ML and AI to solve problems and to help generate more ideas.
+Although these demos show that these models work independently, it is possible to combine them for achieving certain goal. 
+For example, NER can be used to remove confidential information prior to sending the text to the AI model for further processing.
+In addition, further work can be done to leverage these models for real time threat or emergent trend monitoring using unsupervise learning to identify themes.
+The possibilities are endless.**""")
 
          
