@@ -1,5 +1,5 @@
 import streamlit as st
-import os
+import getpass
 from datetime import datetime
 
 def get_greeting():
@@ -13,7 +13,7 @@ def get_greeting():
 
 # Use the function to get the greeting
 greeting = get_greeting()
-username = os.getlogin()
+username = getpass.getuser()
 
 st.title(greeting, username)
 st.title("🤖 Apps with endless possibilities")
