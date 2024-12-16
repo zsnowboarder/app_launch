@@ -49,7 +49,7 @@ This model works locally and does not require connection to the internet.""")
 st.markdown("[<h3>Try it</h3>](https://threat-analysis.streamlit.app/)", unsafe_allow_html=True)
 st.write("")
 
-st.markdown("<p><h3><span style='color: blue;'>🪄 5. eIM</h3></span></p>", unsafe_allow_html=True)
+st.markdown("<p><h3><span style='color: blue;'>✨ 5. eIM</h3></span></p>", unsafe_allow_html=True)
 st.write("""This proof of concept uses the most advanced AI model to generate an eIM compliant RTCC or any report with
             all entities and text pages in an XML file. The file can be imported for further processing or sent directly to
             the Transcription Queue for further processing. This model uses the free version of Gemini and all data is sent to the server for processing; therefore confidential information is not recommended.""")
@@ -60,7 +60,7 @@ st.markdown("""**These concepts have demostrated the application of ML and AI to
 Although these demos show that these models work independently, it is possible to combine them for achieving certain goal. 
 For example, NER can be used to remove confidential information prior to sending the text to the AI model for further processing.
 In addition, further work can be done to leverage these models for real time threat or emergent trend monitoring using unsupervise learning to identify themes.
-The possibilities are endless.""")
+The possibilities are endless.**""")
 
 ai = """[The following is AI generated content] AI is a powerful tool that, when combined with machine learning, can perform 
 exceptionally well for a wide range of tasks, ultimately enhancing human capabilities and driving progress. By automating routine tasks, AI allows 
