@@ -21,9 +21,10 @@ st.title(greeting, username)
 st.title("🤖 Apps with endless possibilities")
 st.write("""one of the main purposes of advancement of technology should be to increase productivity and reduce officers' workload; 
             however, evidence has shown that officers remain overloaded with administrative tasks 
-            despite police departments' investments in modernization of various systems.
-            Machine learning and AI offer a promissing solution. These proof of concept apps demostrate the application of machine learning, from basic model to advanced AI model to assist with various tasks.
-            The main purpose of these concepts is to promote awareness and to help officers manage the significant increase in adminstrative and investigative tasks in modern policing.""")
+            despite police departments' investments in modernization of various systems. Police departments are often lagged behind in rapidly developing applications and tools
+            using free cutting edge technology such as machine learning and AI to solve problems. 
+            These proof of concept apps demostrate the application of machine learning, from basic model to advanced AI model to assist with various tasks.
+            The main purpose of these concepts is to promote awareness and to help officers and civilian employees manage the increasing demand in adminstrative and investigative tasks in modern policing.""")
 
 st.markdown("<p><h3><span style='color: blue;'>📑 1. Offence Classifier</h3></span></p>", unsafe_allow_html=True)
 st.write("This is a basic machine learning model using Logistic Regression with TF-IDF vectorizer to classify offences. The model was train on only 40 examples. The larger the training dataset, the higher the accuracy. This model works locally and does not require connection to the internet.")
