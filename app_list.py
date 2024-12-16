@@ -60,7 +60,9 @@ st.markdown("""**These concepts have demostrated the application of ML and AI to
 Although these demos show that these models work independently, it is possible to combine them for achieving certain goal. 
 For example, NER can be used to remove confidential information prior to sending the text to the AI model for further processing.
 In addition, further work can be done to leverage these models for real time threat or emergent trend monitoring using unsupervise learning to identify themes.
-The possibilities are endless.[The following is AI generated content] AI is a powerful tool that, when combined with machine learning, can perform 
+The possibilities are endless.""")
+
+ai = """[The following is AI generated content] AI is a powerful tool that, when combined with machine learning, can perform 
 exceptionally well for a wide range of tasks, ultimately enhancing human capabilities and driving progress. By automating routine tasks, AI allows 
 humans to focus on more complex and creative aspects of their work, leading to increased productivity and innovation. The collaboration between human 
 intelligence and AI's computational power opens up new horizons for solving complex problems and generating innovative ideas.
