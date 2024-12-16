@@ -69,4 +69,4 @@ intelligence and AI's computational power opens up new horizons for solving comp
 These advancements spark curiosity and open up new possibilities for various sectors, including police agencies, healthcare, finance, and more. 
 For police agencies, in particular, the integration of AI and ML can revolutionize investigative processes, enhance threat detection, and improve 
 overall efficiency. By embracing these technologies, police agencies can better manage administrative tasks, identify patterns in criminal activities, 
-and respond more effectively to emerging threats.**""")
+and respond more effectively to emerging threats.**"""
