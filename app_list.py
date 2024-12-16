@@ -1,9 +1,11 @@
 import streamlit as st
-import getpass
+import getpass, pytz
 from datetime import datetime
 
+timezone = pytz.timezone("America/Los_Angeles")
+
 def get_greeting():
-    now = datetime.now()
+    now = datetime.now(timezone)
     if now.hour < 12:
         return "Good morning"
     elif 12 <= now.hour < 18:
@@ -11,7 +13,7 @@ def get_greeting():
     else:
         return "Good evening"
 
-# Use the function to get the greeting
+
 greeting = get_greeting()
 username = getpass.getuser()
 
