@@ -1,5 +1,21 @@
 import streamlit as st
+import os
+from datetime import datetime
 
+def get_greeting():
+    now = datetime.now()
+    if now.hour < 12:
+        return "Good morning"
+    elif 12 <= now.hour < 18:
+        return "Good afternoon"
+    else:
+        return "Good evening"
+
+# Use the function to get the greeting
+greeting = get_greeting()
+username = os.getlogin()
+
+st.title(greeting, username)
 st.title("🤖 Apps with endless possibilities")
 st.write("""The advancement of technology was intended to reduce officers' workload; however, evidence shows that officers remain overloaded with administrative tasks 
             despite police departments' investments in modernization of various systems.
