@@ -15,8 +15,8 @@ def get_greeting():
 
 
 greeting = get_greeting()
-#username = getpass.getuser()
-username = os.getenv('USERNAME') or os.getenv('USER')
+username = getpass.getuser()
+#username = os.getenv('USERNAME') or os.getenv('USER')
 st.title(greeting, username)
 st.title("🤖 Apps with endless possibilities")
 st.write("""The advancement of technology was intended to reduce officers' workload; however, evidence shows that officers remain overloaded with administrative tasks 
