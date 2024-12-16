@@ -19,7 +19,8 @@ username = getpass.getuser()
 #username = os.getenv('USERNAME') or os.getenv('USER')
 st.title(greeting, username)
 st.title("🤖 Apps with endless possibilities")
-st.write("""The advancement of technology was intended to reduce officers' workload; however, evidence shows that officers remain overloaded with administrative tasks 
+st.write("""one of the main purposes of advancement of technology should be to increase productivity and reduce officers' workload; 
+            however, evidence has shown that officers remain overloaded with administrative tasks 
             despite police departments' investments in modernization of various systems.
             Machine learning and AI offer a promissing solution. These proof of concept apps demostrate the application of machine learning, from basic model to advanced AI model to assist with various tasks.
             The main purpose of these concepts is to promote awareness and to help officers manage the significant increase in adminstrative and investigative tasks in modern policing.""")
