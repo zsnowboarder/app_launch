@@ -63,11 +63,3 @@ In addition, further work can be done to leverage these models for real time thr
 The possibilities are endless.**""")
 
 
-ai = """[The following is AI generated content] AI is a powerful tool that, when combined with machine learning, can perform 
-exceptionally well for a wide range of tasks, ultimately enhancing human capabilities and driving progress. By automating routine tasks, AI allows 
-humans to focus on more complex and creative aspects of their work, leading to increased productivity and innovation. The collaboration between human 
-intelligence and AI's computational power opens up new horizons for solving complex problems and generating innovative ideas.
-These advancements spark curiosity and open up new possibilities for various sectors, including police agencies, healthcare, finance, and more. 
-For police agencies, in particular, the integration of AI and ML can revolutionize investigative processes, enhance threat detection, and improve 
-overall efficiency. By embracing these technologies, police agencies can better manage administrative tasks, identify patterns in criminal activities, 
-and respond more effectively to emerging threats."""
