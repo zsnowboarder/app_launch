@@ -1,5 +1,4 @@
 import streamlit as st
-import getpass, pytz, os
 from datetime import datetime
 
 timezone = pytz.timezone("America/Los_Angeles")
@@ -15,7 +14,7 @@ def get_greeting():
 
 
 greeting = get_greeting()
-username = getpass.getuser()
+#username = getpass.getuser()
 #username = os.getenv('USERNAME') or os.getenv('USER')
 st.title(greeting)
 st.title("🤖 Apps with endless possibilities")
