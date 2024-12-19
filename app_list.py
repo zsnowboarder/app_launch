@@ -18,7 +18,7 @@ def get_greeting():
 greeting = get_greeting()
 #username = getpass.getuser()
 #username = os.getenv('USERNAME') or os.getenv('USER')
-st.title(greeting, username)
+st.title(greeting)
 st.title("🤖 Apps with endless possibilities")
 st.write("""one of the main purposes of advancement of technology should be to increase productivity and reduce officers' workload; 
             however, evidence has shown that officers remain overloaded with administrative tasks 
