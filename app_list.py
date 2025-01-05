@@ -25,7 +25,8 @@ st.write("""one of the main purposes of advancement of technology should be to i
             despite police departments' investments in modernization of various systems. Police departments are often lagged behind in rapidly developing applications and tools
             using free cutting edge technology such as machine learning and AI to solve problems. 
             These proof of concept apps demostrate the application of machine learning, from basic model to advanced AI model to assist with various tasks.
-            The main purpose of these concepts is to promote awareness and to help officers and civilian employees manage the increasing demand in adminstrative and investigative tasks in modern policing enviroment.""")
+            The main purpose of these concepts is to promote awareness and to help officers and civilian employees manage the increasing demand in adminstrative and investigative tasks in modern policing enviroment.
+            Please note that some of these approaches and ideas are copyrighted by default.""")
 
 st.markdown("<p><h3><span style='color: blue;'>1.📑 Offence Classifier</h3></span></p>", unsafe_allow_html=True)
 st.write("This is a basic machine learning model using Logistic Regression with TF-IDF vectorizer to classify offences. The model was train on only 40 examples. The larger the training dataset, the higher the accuracy. This model works locally and does not require connection to the internet.")
@@ -55,6 +56,12 @@ st.write("""This proof of concept uses the most advanced AI model to generate an
             all entities and text pages in an XML file. The file can be imported for further processing or sent directly to
             the Transcription Queue for further processing. This model uses the free version of Gemini and all data is sent to the server for processing; therefore confidential information is not recommended.""")
 st.markdown("[<h3>Try it</h3>](https://eim-api.streamlit.app/)", unsafe_allow_html=True)
+st.write("")
+
+st.markdown("<p><h3><span style='color: blue;'>6.🔍 eIM</h3></span></p>", unsafe_allow_html=True)
+st.write("""This demo retrieves the latest 10 news articles from CTV News and analyses the content. User will have an opportunity to add an additional text for analysis. This concept can be used to monitor threats for 
+specific user's social media account using an API.""")
+st.markdown("[<h3>Try it</h3>](https://threat-detoxify.streamlit.app/)", unsafe_allow_html=True)
 st.write("")
 
 st.markdown("""**These concepts have demostrated the application of ML and AI to solve problems and to help generate more ideas as well as curiosities.
