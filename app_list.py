@@ -58,7 +58,7 @@ st.write("""This proof of concept uses the most advanced AI model to generate an
 st.markdown("[<h3>Try it</h3>](https://eim-api.streamlit.app/)", unsafe_allow_html=True)
 st.write("")
 
-st.markdown("<p><h3><span style='color: blue;'>6.🔍 eIM</h3></span></p>", unsafe_allow_html=True)
+st.markdown("<p><h3><span style='color: blue;'>6.🔍 Threat and Sentiment Detection</h3></span></p>", unsafe_allow_html=True)
 st.write("""This demo retrieves the latest 10 news articles from CTV News and analyses the content. User will have an opportunity to add an additional text for analysis. This concept can be used to monitor threats for 
 specific user's social media account using an API.""")
 st.markdown("[<h3>Try it</h3>](https://threat-detoxify.streamlit.app/)", unsafe_allow_html=True)
