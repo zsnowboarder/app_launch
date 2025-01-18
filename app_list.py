@@ -20,7 +20,7 @@ greeting = get_greeting()
 #username = os.getenv('USERNAME') or os.getenv('USER')
 st.title(greeting)
 st.title("🤖 Apps with endless possibilities")
-st.title("Note: Sometimes apps in Streamlit go to sleep due to inactivity. If you are unable to wake it up or encounter memory issues due to limited usage in the free version, please contact Jimmy to reboot the app.")
+st.title("Note: Sometimes apps go to sleep due to inactivity. If you are unable to wake it up or encounter memory issues due to limited usage in the free version, please contact Jimmy to reboot the app.")
 st.write("""one of the main purposes of advancement of technology should be to increase productivity and reduce officers' workload; 
             however, evidence has shown that officers remain overloaded with administrative tasks 
             despite police departments' investments in modernization of various systems. Police departments are often lagged behind in rapidly developing applications and tools
