@@ -20,8 +20,7 @@ greeting = get_greeting()
 #username = os.getenv('USERNAME') or os.getenv('USER')
 st.title(greeting)
 st.title("🤖 Apps with endless possibilities")
-st.title("⚠️ ")
-st.title("These apps may occasionally go to sleep due to inactivity. If you are unable to wake it up or encounter memory issues caused by limitations in the free version, please contact Jimmy to reboot the app.")
+st.title("⚠️ These apps may occasionally go to sleep due to inactivity. If you are unable to wake it up or encounter memory issues caused by limitations in the free version, please contact Jimmy to reboot the app.")
 st.write("""one of the main purposes of advancement of technology should be to increase productivity and reduce officers' workload; 
             however, evidence has shown that officers remain overloaded with administrative tasks 
             despite police departments' investments in modernization of various systems. Police departments are often lagged behind in rapidly developing applications and tools
@@ -63,6 +62,11 @@ st.markdown("<p><h3><span style='color: blue;'>6.🔍 Threat and Sentiment Detec
 st.write("""This demo retrieves the latest 10 news articles from CTV News and analyses the content. User will have an opportunity to add an additional text for analysis. This concept can be used to monitor threats for 
 specific user's social media account using an API.""")
 st.markdown("[<h3>Try it</h3>](https://threat-detoxify.streamlit.app/)", unsafe_allow_html=True)
+st.write("")
+
+st.markdown("<p><h3><span style='color: blue;'>7. My AI Writing Assistant</h3></span></p>", unsafe_allow_html=True)
+st.write("""This AI assistant will help you with text make over, detective work, performance development, and more.""")
+st.markdown("[<h3>Try it</h3>](https://ai-partner.streamlit.app/)", unsafe_allow_html=True)
 st.write("")
 
 st.markdown("""**These concepts have demostrated the application of ML and AI to solve problems and to help generate more ideas as well as curiosities.
